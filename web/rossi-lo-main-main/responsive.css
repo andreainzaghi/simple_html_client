@@ -1,0 +1,194 @@
+@media screen and (max-width: 414px) {
+   .hide{
+       font-size: 30px;
+       line-height: 20px;
+       padding:10px;
+   }
+   .big-text{
+       font-size:30px;
+   }
+   .nav-links li{
+       font-size: 25px;
+       padding:10px;
+       width:50%;
+       height:100px;
+       border:1px solid white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .nav-links {
+   display:flex;
+  
+   margin-top:200px;
+   flex-wrap: wrap;
+}
+span .fa-user-circle{
+    z-index: 606;
+    position:absolute;
+    top:50px;
+    right:calc(50% - 25px);
+     transition: 0.6s;
+    animation: arrowre 1s linear 2s infinite alternate; 
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+  }
+  .chi-siamo{
+    display:flex;
+    height:100%;
+    margin:auto;
+  }
+  .edificio2{
+      display:none;
+  }
+  
+  .dues,
+  
+  .quattros{
+  width:100%;
+  position: relative;
+  height:100%;
+  top:10px;
+  
+  }
+  .unos,
+  
+  .tres{
+  width:100%;
+  bottom:10px;
+  position: relative;
+  height:100%;
+  
+  }
+  .square{
+    margin:20px 10px;
+    height:70px;
+    width:70px;
+    z-index: 24;
+  background-color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border:5px solid rgba(37,85,118,0.9946478835674895);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+  }
+  .square:hover{
+    box-shadow:  0 0 5px #fff;
+    transition:0.3s;
+    border:5px solid #ffd700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+    animation: shake 0.2s linear infinite ;
+  }
+  .square i:hover{
+    color:#ffd700;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+  }
+  .square i{
+    color:rgba(37,85,118,0.9946478835674895);
+    font-size: 50px;
+  }
+  #idprova1{
+    color:#ffd700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+    text-align: center;
+   width:300px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 22;
+    height:20%;
+    margin:40px auto 0px;
+  }
+  .mappa{
+      display:none;
+  }
+  #idprova{
+    width:300px;
+    text-align: center;
+    height:10%;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color:#ffd700;
+    border-bottom:1px solid #fff;
+  z-index: 33;
+    /* position:absolute;
+    top:15%; */
+  }
+  .elementi-servizi{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      height:50%;
+      width:100%;
+      margin-bottom:30px;
+    }
+    .login-pop{
+       
+        
+        background: rgba(37,85,118,0.9946478835674895);
+        /* background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(78,183,255,1) 24%, rgba(37,85,118,0.9946478835674895) 100%); */
+        border:1px solid black;
+       
+        position: absolute;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        z-index: 100;
+        border-radius:20px;
+        visibility:hidden;
+      }
+      .display-no{
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        background: rgba(37,85,118,0.9946478835674895);
+        /* background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(78,183,255,1) 24%, rgba(37,85,118,0.9946478835674895) 100%); */
+        border:1px solid black;
+       
+        position: absolute;
+     
+        z-index: 100;
+        border-radius:20px;
+      
+        visibility:visible;
+      }
+      .content2   form input{
+        width:320px;
+        height:45px;
+        border-radius: 35px;
+        border: none;
+        margin: 20px 0;
+        padding:10px 15px;
+        box-shadow: 
+        6px 6px 8px 0 rgba(0, 0, 0, 0.45),
+        -4px -4px 6px 0 rgba(255, 255, 255, 0.5);
+        outline: none;
+        font-size: 20px;
+        
+        }
+        .chisiamo-info{
+            display:none;
+        }
+       .mail-send{
+           width:100%;
+           height:100%;
+       }
+       .content2 form {
+        height: 100%;
+        width:350px;
+       }
+   
+       .content2 form textarea {
+        height: 100px;
+         width:100%;
+         margin:0px;
+    }
+    #form-mail h2{
+        display:none;
+    }
+  }

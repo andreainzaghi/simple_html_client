@@ -17,8 +17,32 @@ function prova(tilte,descrizione){
 
 const circle = document.querySelector('.fa-user-circle');
 const login = document.querySelector('.login-pop');
+const mapps = document.querySelector('.mappa');
 
 
 circle.onclick = function(){
   login.classList.toggle('display-no'); 
 }
+
+function myFunction6() {
+
+  login.classList.toggle('display-no'); 
+  
+}
+function myFunction8() {
+
+  mapps.classList.toggle('mappa1'); 
+  console.log('ciao');
+}
+ 
+
+  function mailSender() {
+    const form = document.getElementById('form-mail');
+    const formData = new FormData(form);
+    var xmlhttp = new XMLHttpRequest();
+    var theUrl = "http://localhost/mail.php";
+    xmlhttp.open("POST", theUrl);
+    xmlhttp.setRequestHeader('Content-Disposition', 'form-data');
+    xmlhttp.send(formData);
+  }
+

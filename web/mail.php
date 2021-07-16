@@ -23,15 +23,15 @@ try {
     $mail->Port       = 2525;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('ciaotr@example.com', 'Mailer');
-    $mail->addAddress('ferdinando.borgognone@clicksrl.eu', 'Joe User');
+    $mail->setFrom('noreplay@rossibrunori.com', 'Mailer');
+    $mail->addAddress($_POST['email'], $_POST['name']);
    
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->Subject ='Richiesta da sito Internet Rossi Brunori' ;
+    $mail->Body    = $_POST['messaggio'];
+    $mail->AltBody = $_POST['name'];
 
     $mail->send();
     header('Contente-Type: application/json');
