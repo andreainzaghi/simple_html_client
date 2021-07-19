@@ -1,4 +1,10 @@
 @media screen and (max-width: 400px) {
+  * {
+    margin:0px ;
+    
+    padding: 0;
+    box-sizing: border-box;
+  }
    .hide{
        font-size: 30px;
        line-height: 20px;
@@ -141,10 +147,10 @@ span .fa-user-circle{
     }
     .login-pop{
        
-        
+      -webkit-transition:0.35s;
         background: rgba(37,85,118,0.9946478835674895);
         /* background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(78,183,255,1) 24%, rgba(37,85,118,0.9946478835674895) 100%); */
-        border:1px solid black;
+        
        
         position: absolute;
         top:0;
@@ -156,13 +162,14 @@ span .fa-user-circle{
         visibility:hidden;
       }
       .display-no{
+        -webkit-transition:0.35s;
         top:0;
         left:0;
         height:100%;
         width:100%;
         background: rgba(37,85,118,0.9946478835674895);
         /* background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(78,183,255,1) 24%, rgba(37,85,118,0.9946478835674895) 100%); */
-        border:1px solid black;
+        border:5px solid #fff;
         border-radius:0;
         position: absolute;
      
@@ -184,6 +191,9 @@ span .fa-user-circle{
         outline: none;
         font-size: 20px;
         
+        }
+        .cerchio{
+          display:none;
         }
         .chisiamo-info{
             display:none;
@@ -207,5 +217,9 @@ span .fa-user-circle{
     }
     .content{
       padding:30px;
+    }
+    .content2{
+      border-left:4px solid #fff;
+        border-right:4px solid #fff;
     }
   }

@@ -24,9 +24,9 @@ function myFunction1() {
 
   
 function myFunction2() {
- 
     var element2 = document.getElementById('form-mail');
     var rect = element2.getBoundingClientRect();
+   
     console.log(rect.top, rect.right, rect.bottom, rect.left);
     window.scroll(0, rect.left) ;
     
