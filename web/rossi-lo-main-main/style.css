@@ -131,7 +131,7 @@ form span {
 
 /* sliding */
 .content1   form input{
-width:400px;
+width:340px;
 height:60px;
 border-radius: 40px;
 border: none;
@@ -853,11 +853,7 @@ background-color: #ffd700;;
   font-size: 20px;
   
 }
-/* #form-mail{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-} */
+
 form textarea{
   margin:10px calc(50% - 300px);
   
