@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap"
@@ -25,23 +26,23 @@
           <nav>
            
             <ul class="nav-links">
-              <li  onclick="myFunction1()">Home</li>
-              <li onclick="myFunction()">Servizi</li>
-              <li  onclick="myFunction2()">Chi Siamo</li>
-              <li  onclick="myFunction6()">Login</li>
+              <li  onclick="navLink('home1')">Home</li>
+              <li onclick="navLink('idprova121')">Servizi</li>
+              <li  onclick="navLink('mailmail1')">Chi Siamo</li>
+              <li  onclick="Login()">Login</li>
             
             </ul>
             <!-- responsive -->
             <ul class="nav-links11">
-              <li  onclick="myFunction1()">Home</li>
-              <li onclick="myFunction()">Servizi</li>
-              <li  onclick="myFunction2()">Contattaci</li>
-              <li  onclick="myFunction6()">Login</li>
+              <li  onclick="navLink('home')">Home</li>
+              <li onclick="navLink('immaginepalazzetti')">Servizi</li>
+              <li  onclick="navLink('mailmail')">Contattaci</li>
+              <li  onclick="Login()">Login</li>
             
             </ul>
           </nav>
           <h2 class="big-text">Rossi Brunori</h2>
-          <img src="rbglog.png"   alt="">
+          <img src="rbglog.png"  id="immaginepalazzetti" alt="">
           
           <span ><i class="fas fa-user-circle" ><p class="login-text">Login</p></i></span>
           <div class="login-pop content1" >
@@ -53,7 +54,7 @@
             </form>
           </div>
         </span>
-        <section>
+        <section id="idprova121">
           <span class="edificio2"></span>
 
             <div class="content">
@@ -96,8 +97,8 @@
                 </div>
 
                 <div class="tres">
-                  <div class="square" onmouseover="pr250pxova('UFFICIO TECNICO - SICUREZZA',' continuo aggiornamento e approfondimento delle disposizione in materia di sicurezza e di norma di legge')"><i class="fas fa-city"></i></div>
-                  <div class="square" onmouseover="prova(' UFFICIO TECNICO - SEGNALZIONI','presa in carico segnalazioni, gestione interventi e sopralluoghi')"><i class="far fa-hand-peace"></i></div>
+                  <div class="square" onmouseover="prova('UFFICIO TECNICO - SICUREZZA',' continuo aggiornamento e approfondimento delle disposizione in materia di sicurezza e di norma di legge')"><i class="fas fa-city"></i></div>
+                  <div class="square" onmouseover="prova(' UFFICIO TECNICO - SEGNALAZIONI','presa in carico segnalazioni, gestione interventi e sopralluoghi')"><i class="far fa-hand-peace"></i></div>
                   <div class="square" onmouseover="prova('GESTIONE DELLE LOCAZIONI ','per condomini e clienti privati sollevando così i proprietari dell’incmbenza del rapporto diretto con i propri inquilini')"><i class="fas fa-box-open"></i></div>
                 </div>
 
@@ -111,7 +112,7 @@
           </div>
         </div>
         </section>
-        <section>
+        <section id="mailmail1">
 
           <div class="content2">
             <div class="chisiamo-info">
@@ -157,7 +158,7 @@
              
             </div>
         
-            <span><i class="fas fa-arrow-left" onclick="myFunction1()"></i></span>
+            <span><i class="fas fa-arrow-left"  onclick="navLink('home')"></i></span>
     
                 
       </div> 

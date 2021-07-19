@@ -24,12 +24,12 @@ circle.onclick = function(){
   login.classList.toggle('display-no'); 
 }
 
-function myFunction6() {
+function Login() {
 
   login.classList.toggle('display-no'); 
   
 }
-function myFunction8() {
+function Togglepop() {
 
   mapps.classList.toggle('mappa1'); 
   console.log('ciao');

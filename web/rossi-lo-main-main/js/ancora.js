@@ -1,45 +1,25 @@
 $( document ).ready(function() {
-  
- });
+  console.log('ìsuca');
+});
 
-function myFunction() {
-    var element = document.getElementById('cs');
-    var rect = element.getBoundingClientRect();
-    console.log(rect.top, rect.right, rect.bottom, rect.left);
-    window.scroll(0, rect.left) ;
+
+  // console.log(widthr);
+  // console.log(height);
+
+
+
+function navLink(kind) {
+  var widthr= window.innerWidth ;
+  var element = document.getElementById(kind);
+  var rect = element.getBoundingClientRect();
+  console.log(rect.top, rect.right, rect.bottom, rect.left);
+  
+  var spostati = rect.left +(widthr/2);
+  console.log(spostati);
+  window.scroll(0, spostati);
+ 
     
-  }
-
-
-  
-function myFunction1() {
-  
-    var element1 = document.getElementById('home');
-    var rect = element1.getBoundingClientRect();
-    console.log(rect.top, rect.right, rect.bottom, rect.left);
-    window.scroll(0, rect.left) ;
-    
-  }
-
-
-  
-function myFunction2() {
-    var element2 = document.getElementById('form-mail');
-    var rect = element2.getBoundingClientRect();
-   
-    console.log(rect.top, rect.right, rect.bottom, rect.left);
-    window.scroll(0, rect.left) ;
-    
-  }
+}
 
 
 
-  
-function myFunction3() {
-  
-    var element3 = document.getElementById('area');
-    var rect = element3.getBoundingClientRect();
-    console.log(rect.top, rect.right, rect.bottom, rect.left);
-    window.scroll(0, rect.left) ;
-    
-  }
