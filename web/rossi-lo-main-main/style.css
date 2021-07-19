@@ -30,7 +30,11 @@ nav {
 }
 .nav-links {
   display: flex;
+  display:visible;
   list-style: none;
+}
+.nav-links11{
+  display:none;
 }
 .nav-links li {
  text-align: center;

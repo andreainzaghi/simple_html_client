@@ -7,7 +7,8 @@
    .big-text{
        font-size:30px;
    }
-   .nav-links li{
+   .nav-links11 li{
+        display:visible ;
        font-size: 25px;
        padding:10px;
        width:90%;
@@ -19,12 +20,16 @@
        margin:5px auto;
        justify-content: center;
        align-items: center;
+       color:#fff;
    }
-   .nav-links {
+   .nav-links11 {
    display:flex;
   
    margin-top:200px;
    flex-wrap: wrap;
+}
+.nav-links{
+display:none;
 }
 span .fa-user-circle{
     z-index: 606;
@@ -147,7 +152,7 @@ span .fa-user-circle{
         height:100%;
         width:100%;
         z-index: 100;
-        border-radius:20px;
+        
         visibility:hidden;
       }
       .display-no{
@@ -158,11 +163,11 @@ span .fa-user-circle{
         background: rgba(37,85,118,0.9946478835674895);
         /* background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(78,183,255,1) 24%, rgba(37,85,118,0.9946478835674895) 100%); */
         border:1px solid black;
-       
+        border-radius:0;
         position: absolute;
      
         z-index: 100;
-        border-radius:20px;
+      
       
         visibility:visible;
       }
