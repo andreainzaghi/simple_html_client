@@ -147,7 +147,7 @@ span .fa-user-circle{
     }
     .login-pop{
        
-      -webkit-transition:0.35s;
+      -webkit-transition:0.2s;
         background: rgba(37,85,118,0.9946478835674895);
         /* background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(78,183,255,1) 24%, rgba(37,85,118,0.9946478835674895) 100%); */
         
@@ -162,7 +162,7 @@ span .fa-user-circle{
         visibility:hidden;
       }
       .display-no{
-        -webkit-transition:0.35s;
+        -webkit-transition:0.25s;
         top:0;
         left:0;
         height:100%;
