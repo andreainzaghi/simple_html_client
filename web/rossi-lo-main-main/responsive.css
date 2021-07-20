@@ -132,6 +132,7 @@ span .fa-user-circle{
     text-transform: uppercase;
     color:#ffd700;
     border-bottom:1px solid #fff;
+    border-top:1px solid #fff;
   z-index: 33;
     /* position:absolute;
     top:15%; */
